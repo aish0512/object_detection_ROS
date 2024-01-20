@@ -1,0 +1,2 @@
+open_manipulator_desp:open_manipulator_moveit
+-DCATKIN_DEVEL_PREFIX=/home/aishwarya/Desktop/objectDetection/devel -DCMAKE_INSTALL_PREFIX=/home/aishwarya/Desktop/objectDetection/install -G Unix Makefiles
