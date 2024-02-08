@@ -10,7 +10,7 @@
 
     <rosparam  file="$(find open_manipulator_desp)/config/arm_controller.yaml"/>
 
-    <node name="Controller_Spawner" pkg="controller_manager" type="spawner" args="arm_controller" />
+    <node name="Controller_Spawner" pkg="controller_manager" type="spawner" args="arm_controller gripper_controller" />
    
     
 
